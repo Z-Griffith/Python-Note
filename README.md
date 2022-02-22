@@ -1,7 +1,7 @@
 
 
 
-# fillter 用法
+# fillter() 用法
 filter(function, sequence)
 Parameters:
 function: function that tests if each element of a 
@@ -29,3 +29,14 @@ filtered = filter(fun, sequence)
 print('The filtered letters are:')
 for s in filtered:
 	print(s)
+
+# flatmap() 用法
+
+https://www.geeksforgeeks.org/scala-flatmap-method/?ref=gcse
+
+In Scala, flatMap() method is identical to the map() method, but the only difference is that in flatMap the inner grouping of an item is removed and a sequence is generated. It can be defined as a blend of map method and flatten method. The output obtained by running the map method followed by the flatten method is same as obtained by the flatMap(). So, we can say that flatMap first runs the map method and then the flatten method to generate the desired result.
+Note:
+
+It has a built-in Option class as an Option can be expressed as a sequence which has at most one element i.e, either its empty or has only one element.
+The flatten() method is utilized to disintegrate the elements of a Scala collection in order to construct a single collection with the elements of similar type.
+
