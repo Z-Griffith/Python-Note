@@ -1,7 +1,7 @@
 
 
 
-## fillter 用法
+# fillter 用法
 filter(function, sequence)
 Parameters:
 function: function that tests if each element of a 
@@ -11,7 +11,7 @@ be sets, lists, tuples, or containers of any iterators.
 Returns:
 returns an iterator that is already filtered.
 
-# function that filters vowels
+### function that filters vowels
 def fun(variable):
 	letters = ['a', 'e', 'i', 'o', 'u']
 	if (variable in letters):
@@ -20,10 +20,10 @@ def fun(variable):
 		return False
 
 
-# sequence
+### sequence
 sequence = ['g', 'e', 'e', 'j', 'k', 's', 'p', 'r']
 
-# using filter function
+### using filter function
 filtered = filter(fun, sequence)
 
 print('The filtered letters are:')
