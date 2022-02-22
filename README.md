@@ -40,3 +40,7 @@ Note:
 It has a built-in Option class as an Option can be expressed as a sequence which has at most one element i.e, either its empty or has only one element.
 The flatten() method is utilized to disintegrate the elements of a Scala collection in order to construct a single collection with the elements of similar type.
 
+# Collect() – Retrieve data from DataFrame
+
+https://www.geeksforgeeks.org/pyspark-collect-retrieve-data-from-dataframe/?ref=gcse
+
